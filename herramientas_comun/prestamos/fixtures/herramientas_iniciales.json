@@ -1,0 +1,206 @@
+[
+  {
+    "model": "prestamos.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Herramientas manuales",
+      "descripcion": "Herramientas de uso manual para trabajos generales."
+    }
+  },
+  {
+    "model": "prestamos.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Herramientas eléctricas",
+      "descripcion": "Equipos eléctricos para corte, perforación y lijado."
+    }
+  },
+  {
+    "model": "prestamos.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Medición y seguridad",
+      "descripcion": "Instrumentos de medición y equipos de protección personal."
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 1,
+    "fields": {
+      "codigo": "MAN-001",
+      "nombre": "Martillo de carpintero",
+      "categoria": 1,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-01-10"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 2,
+    "fields": {
+      "codigo": "MAN-002",
+      "nombre": "Juego de destornilladores",
+      "categoria": 1,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-01-11"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 3,
+    "fields": {
+      "codigo": "MAN-003",
+      "nombre": "Alicate universal",
+      "categoria": 1,
+      "estado": "Regular",
+      "disponible": true,
+      "fecha_ingreso": "2026-01-12"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 4,
+    "fields": {
+      "codigo": "MAN-004",
+      "nombre": "Llave ajustable",
+      "categoria": 1,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-01-13"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 5,
+    "fields": {
+      "codigo": "MAN-005",
+      "nombre": "Serrucho manual",
+      "categoria": 1,
+      "estado": "Regular",
+      "disponible": false,
+      "fecha_ingreso": "2026-01-14"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 6,
+    "fields": {
+      "codigo": "ELE-001",
+      "nombre": "Taladro percutor",
+      "categoria": 2,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-02-01"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 7,
+    "fields": {
+      "codigo": "ELE-002",
+      "nombre": "Lijadora orbital",
+      "categoria": 2,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-02-02"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 8,
+    "fields": {
+      "codigo": "ELE-003",
+      "nombre": "Sierra circular",
+      "categoria": 2,
+      "estado": "Regular",
+      "disponible": true,
+      "fecha_ingreso": "2026-02-03"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 9,
+    "fields": {
+      "codigo": "ELE-004",
+      "nombre": "Amoladora angular",
+      "categoria": 2,
+      "estado": "En reparación",
+      "disponible": false,
+      "fecha_ingreso": "2026-02-04"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 10,
+    "fields": {
+      "codigo": "ELE-005",
+      "nombre": "Atornillador inalámbrico",
+      "categoria": 2,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-02-05"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 11,
+    "fields": {
+      "codigo": "MED-001",
+      "nombre": "Cinta métrica de 5 m",
+      "categoria": 3,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-03-01"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 12,
+    "fields": {
+      "codigo": "MED-002",
+      "nombre": "Nivel de burbuja",
+      "categoria": 3,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-03-02"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 13,
+    "fields": {
+      "codigo": "MED-003",
+      "nombre": "Multímetro digital",
+      "categoria": 3,
+      "estado": "Regular",
+      "disponible": true,
+      "fecha_ingreso": "2026-03-03"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 14,
+    "fields": {
+      "codigo": "MED-004",
+      "nombre": "Gafas de seguridad",
+      "categoria": 3,
+      "estado": "Bueno",
+      "disponible": true,
+      "fecha_ingreso": "2026-03-04"
+    }
+  },
+  {
+    "model": "prestamos.herramienta",
+    "pk": 15,
+    "fields": {
+      "codigo": "MED-005",
+      "nombre": "Guantes de protección",
+      "categoria": 3,
+      "estado": "Bueno",
+      "disponible": false,
+      "fecha_ingreso": "2026-03-05"
+    }
+  }
+]
