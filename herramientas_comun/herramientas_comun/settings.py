@@ -69,6 +69,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'herramientas_comun.wsgi.application'
 
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'inicio'
+LOGOUT_REDIRECT_URL = 'login'
+SESSION_COOKIE_AGE = 1800
+
 
 # Database
 # https://docs.djangoproject.com/en/6.1/ref/settings/#databases
